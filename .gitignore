@@ -1,0 +1,18 @@
+# Python cache
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+
+# Environment variables
+.env
+
+# IDE configurations
+.idea/
+
+# Model checkpoints
+*.pt
+
+# Images
+screenshot.png

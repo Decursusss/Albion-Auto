@@ -1,0 +1,8 @@
+opencv-python
+numpy
+mss
+pygetwindow
+ultralytics
+requests
+pywin32
+PySide6

@@ -1,0 +1,79 @@
+/* ==== Global ==== */
+QWidget {
+    background-color: #1e1f22;
+    color: #e6e6e6;
+    font-family: Segoe UI;
+    font-size: 12px;
+}
+
+/* ==== GroupBox ==== */
+QGroupBox {
+    border: 1px solid #3a3d41;
+    border-radius: 8px;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 12px;
+    padding: 0 6px 0 6px;
+    color: #8ab4f8;
+    font-weight: bold;
+}
+
+/* ==== Tabs ==== */
+QTabWidget::pane {
+    border: 1px solid #3a3d41;
+    border-radius: 6px;
+}
+
+QTabBar::tab {
+    background: #2a2d31;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin: 2px;
+}
+
+QTabBar::tab:selected {
+    background: #3a3f44;
+    color: #8ab4f8;
+}
+
+/* ==== Buttons ==== */
+QPushButton {
+    background-color: #2d89ef;
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #1b5fad;
+}
+
+QPushButton:pressed {
+    background-color: #144a86;
+}
+
+/* ==== SpinBoxes ==== */
+QSpinBox, QDoubleSpinBox, QLineEdit {
+    background-color: #2a2d31;
+    border: 1px solid #444;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+/* ==== CheckBox ==== */
+QCheckBox {
+    spacing: 6px;
+}
+
+/* ==== Logs ==== */
+QTextEdit {
+    background-color: #121212;
+    border: 1px solid #3a3d41;
+    border-radius: 6px;
+}
+
