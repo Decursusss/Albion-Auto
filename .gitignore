@@ -11,8 +11,5 @@ venv/
 # IDE configurations
 .idea/
 
-# Model checkpoints
-*.pt
-
 # Images
 screenshot.png
