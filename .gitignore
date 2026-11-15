@@ -13,3 +13,6 @@ venv/
 
 # Images
 screenshot.png
+
+# Crafting advisor cache
+crafting/data/
